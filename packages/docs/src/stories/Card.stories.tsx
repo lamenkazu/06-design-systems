@@ -1,4 +1,4 @@
-import { Card, CardProps } from '@ignite-ui/react'
+import { Card, CardProps, Text } from '@ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {
@@ -6,11 +6,7 @@ export default {
   component: Card,
 
   args: {
-    children: (
-      <>
-        <span>Textando o elemento Box</span>
-      </>
-    ),
+    children: <Text>Textando o elemento Box</Text>,
   },
 } as Meta<CardProps>
 

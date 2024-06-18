@@ -1,4 +1,4 @@
-import { ComponentProps } from 'react'
+import { ComponentProps, ElementType } from 'react'
 
 import { styled } from '../styles'
 
@@ -9,4 +9,6 @@ export const Card = styled('div', {
   border: '1px solid $gray600',
 })
 
-export interface CardProps extends ComponentProps<typeof Card> {}
+export interface CardProps extends ComponentProps<typeof Card> {
+  as?: ElementType
+}
