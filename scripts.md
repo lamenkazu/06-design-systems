@@ -101,3 +101,52 @@ O mesmo princípio à configuração do typescript é aplicada aqui.
 
 - É feita uma configuração do ESLint no index.js do package eslint-config
 - Essa configuração então é extendida pelas aplicações que utilizam o ESLint através do arquivo .eslintrc.json
+
+## Configuração do Package React e Stitches
+
+Configuração padrão, nada de especial aqui. Seguir pelos commits.
+
+## Configuração do StoryBook
+
+Criar um novo package docs e rodar
+
+```bash
+    npm init -y
+```
+
+```bash
+    npx storybook@latest init --package-manager npm
+```
+
+alterar os scripts para ser dev e build:
+
+```json
+    "dev": "storybook dev -p 6006",
+    "build": "storybook build",
+```
+
+[Seguir documentação da Rocketseat para utilização do storybook v7 para as demais configurações](https://efficient-sloth-d85.notion.site/Atualiza-o-Storybook-v6-v7-42c254c66e584df3b9633334a563a51b#5edc3199c47140659c059877eed5ba9d)
+
+## Configuração do Turbo Repo
+
+O Turbo Repo serve para 2 propósitos:
+
+- executar scripts em todos os pacotes ao mesmo tempo. (ex: executar todos os scripts de dev em paralelo)
+- Acelerar o processo de build da aplicação devido ao cache que ele guarda.
+
+Com o git configurado no repositório, fazer a instalação do turbo.
+
+```bash
+    npm i turbo@latest -D
+```
+
+Criar um arquivo `turbo.json` e seguir as configurações do arquivo nesse projeto.
+
+Agora, no `package.json` root, criar os scripts:
+
+```json
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+```
+
+Para executar estes scripts foi necessario incluir um name e um package manager ao arquivo.

@@ -1,6 +1,10 @@
 node_modules
 dist
+
+# StoryBook
 *storybook.log
 storybook-static
-.turbo
 %SystemDrive%
+
+# Turbo Repo
+.turbo
