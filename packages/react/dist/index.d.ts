@@ -1664,4 +1664,10 @@ interface CheckboxProps extends ComponentProps<typeof CheckboxContainer> {
 }
 declare const Checkbox: (props: CheckboxProps) => react_jsx_runtime.JSX.Element;
 
-export { Avatar, type AvatarProps, Button, type ButtonProps, Card, type CardProps, Checkbox, type CheckboxProps, Heading, type HeadingProps, Text, TextArea, type TextAreaProps, TextInput, type TextInputProps, type TextProps };
+interface MultiStepProps {
+    size: number;
+    currentStep?: number;
+}
+declare const MultiStep: ({ size, currentStep }: MultiStepProps) => react_jsx_runtime.JSX.Element;
+
+export { Avatar, type AvatarProps, Button, type ButtonProps, Card, type CardProps, Checkbox, type CheckboxProps, Heading, type HeadingProps, MultiStep, type MultiStepProps, Text, TextArea, type TextAreaProps, TextInput, type TextInputProps, type TextProps };
