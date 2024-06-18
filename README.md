@@ -7,5 +7,5 @@
 - [x] Button
 - [x] TextInput
 - [x] TextArea
-- [ ] Checkbox
+- [x] Checkbox
 - [ ] MultiStep
