@@ -1,6 +1,16 @@
 {
+  "name": "@ignite-ui/root",
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.0.4"
+  },
+  "packageManager": "npm@10.2.4"
+
 }
