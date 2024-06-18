@@ -5,7 +5,7 @@
 - [x] Heading
 - [x] Avatar
 - [x] Button
-- [ ] TextInput
+- [x] TextInput
 - [ ] TextArea
 - [ ] Checkbox
 - [ ] MultiStep
