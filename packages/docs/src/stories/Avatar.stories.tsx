@@ -7,6 +7,14 @@ export default {
   tags: ['autodocs'],
 
   args: {},
+
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {

@@ -179,7 +179,6 @@ var Heading = styled("h2", {
       sm: { fontSize: "$xl" },
       md: { fontSize: "$2xl" },
       lg: { fontSize: "$4xl" },
-      xl: { fontSize: "$5xl" },
       "2xl": { fontSize: "$5xl" },
       "3xl": { fontSize: "$6xl" },
       "4xl": { fontSize: "$7xl" },
