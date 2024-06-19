@@ -1,4 +1,4 @@
-import { Card, Text, TextArea, TextAreaProps } from '@ignite-ui/react'
+import { Card, Text, TextArea, TextAreaProps } from '@e-etiene-ignite-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
 
 export default {

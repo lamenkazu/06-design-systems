@@ -1,6 +1,6 @@
 ## Init
 
-Como eu vou publicar o package no NPM, o ideal é colocar o nome da organização como prefixo. Isso é feito no package.json, no nome do pacote, no qual aqui foi definido como @ignite-ui/tokens
+Como eu vou publicar o package no NPM, o ideal é colocar o nome da organização como prefixo. Isso é feito no package.json, no nome do pacote, no qual aqui foi definido como @e-etiene-ignite-ui/tokens
 
 Padrão:
 

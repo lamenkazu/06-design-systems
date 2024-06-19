@@ -1,16 +1,19 @@
 {
-  "name": "@ignite-ui/root",
+  "name": "@e-etiene-ignite-ui/root",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@e-etiene-ignite-ui/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.5",
     "turbo": "^2.0.4"
   },
   "packageManager": "npm@10.2.4"
-
 }
