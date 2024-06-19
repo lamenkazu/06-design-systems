@@ -1,0 +1,6 @@
+import{T as n}from"./index-BmWRQT2g.js";import"./index-lToYTJ1z.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-Dj5t_lpc.js";import"./index-DCvIRzM-.js";import"./jsx-runtime-CsGkrc1M.js";const g={title:"Typography/Text",component:n,tags:["autodocs"],args:{size:"md",children:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus nihil temporibus odit eaque atque pariatur, ea praesentium laboriosam quo deserunt nostrum neque quam exercitationem delectus modi dolorem optio non eum."},argTypes:{size:{options:["xxs","xs","sm","md","lg","xl","2xl","4xl","5xl","6xl","7xl","8xl","9xl"],control:{type:"inline-radio"}}}},r={},e={args:{children:"Strong text",as:"strong"}};var o,t,s;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:"{}",...(s=(t=r.parameters)==null?void 0:t.docs)==null?void 0:s.source}}};var a,i,m;e.parameters={...e.parameters,docs:{...(a=e.parameters)==null?void 0:a.docs,source:{originalSource:`{
+  args: {
+    children: 'Strong text',
+    as: 'strong'
+  }
+}`,...(m=(i=e.parameters)==null?void 0:i.docs)==null?void 0:m.source}}};const T=["Primary","CustomTag"];export{e as CustomTag,r as Primary,T as __namedExportsOrder,g as default};
