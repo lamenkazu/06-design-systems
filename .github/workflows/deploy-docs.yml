@@ -21,7 +21,7 @@ jobs:
       - run: npm run build
         env:
           TURBO_TOKEN: yzJczFl9KtydGaoWBdfaBAwn
-          SLUG_TEAM: lamenkazu
+          TURBO_TEAM: lamenkazu
 
       - name: Deploy storybok
         working-directory: ./packages/docs
